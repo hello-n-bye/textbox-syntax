@@ -10,7 +10,7 @@ local DEFAULT_TOKEN_COLORS = {
 	["custom"] = Color3.fromRGB(119, 122, 255),
 }
 
-local types = require(script.Parent.types)
+local types = loadstring(game:HttpGet("https://raw.githubusercontent.com/hello-n-bye/internal-executor-project/main/types.lua"))()
 
 local Theme = {
 	tokenColors = {},
