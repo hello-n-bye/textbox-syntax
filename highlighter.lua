@@ -1,9 +1,9 @@
--- local types = require(script.Parent.types)
--- local utility = require(script.Parent.utility)
--- local theme = require(script.Parent.theme)
+local types = loadstring(game:HttpGet("https://raw.githubusercontent.com/hello-n-bye/internal-executor-project/main/types.lua"))()
+local utility = loadstring(game:HttpGet("https://raw.githubusercontent.com/hello-n-bye/internal-executor-project/main/utility.lua"))()
+local theme = loadstring(game:HttpGet("https://raw.githubusercontent.com/hello-n-bye/internal-executor-project/main/theme.lua"))()
 
 local Highlighter = {
-	defaultLexer = require(script.Parent.lexer) :: types.Lexer,
+	defaultLexer = loadstring(game:HttpGet("https://raw.githubusercontent.com/hello-n-bye/internal-executor-project/main/lexer.lua"))() :: types.Lexer,
 
 	_textObjectData = {} :: { [types.TextObject]: types.ObjectData },
 	_cleanups = {} :: { [types.TextObject]: () -> () },
