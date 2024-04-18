@@ -21,4 +21,4 @@ module.highlight({
 ## Proper Credits
 
 Checkout the [original author's repository](https://github.com/boatbomber/Highlighter) here.
-<br>Original code by [BoatBomber](https://github.com/boatbomber), ported to exploits by [me](https://github.com/hello-n-bye).
+> Original code by [BoatBomber](https://github.com/boatbomber), ported to exploits by [me](https://github.com/hello-n-bye).
